@@ -1,7 +1,6 @@
 import auth from '@react-native-firebase/auth';
 
-const BACKEND_URL =
-  'https://countingcarbs-backend-project-xfjrlphq5q-uc.a.run.app';
+const BACKEND_URL = 'URL';
 
 export async function fetchAPI(path) {
   console.log('FETCH ' + path);
