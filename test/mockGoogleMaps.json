@@ -1,0 +1,272 @@
+﻿{
+  "timelineObjects": [
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 523921089,
+          "longitudeE7": 130741863,
+          "placeId": "ChIJgeY4NOn1qEcRLyR3PCOr9qk",
+          "address": "Eva-Laube-Weg 1, Innenstadt 14473 Potsdam, Deutschland",
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          },
+          "locationConfidence": 70.79341,
+          "calibratedProbability": 86.018875
+        },
+        "duration": {
+          "startTimestamp": "2023-01-01T15:51:07.142Z",
+          "endTimestamp": "2023-01-01T16:20:00.050Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 523920671,
+        "centerLngE7": 130741350,
+        "visitConfidence": 96,
+        "otherCandidateLocations": [
+          {
+            "latitudeE7": 523923534,
+            "longitudeE7": 130741408,
+            "placeId": "ChIJi6WF_8z1qEcRRcH9TcJPDPo",
+            "address": "Eva-Laube-Weg 1, 14473 Potsdam, Deutschland",
+            "name": "Friedrich-List Wohnpark",
+            "locationConfidence": 3.1563447,
+            "calibratedProbability": 3.8351765
+          },
+          {
+            "latitudeE7": 523925720,
+            "longitudeE7": 130667990,
+            "placeId": "ChIJB-_9DsL1qEcRW_fLU3LZEv8",
+            "address": "Babelsberger Str. 16, 14473 Potsdam, Deutschland",
+            "name": "Bahnhofspassagen Potsdam",
+            "locationConfidence": 0.45938465,
+            "calibratedProbability": 0.558184
+          },
+          {
+            "latitudeE7": 523903447,
+            "longitudeE7": 130734121,
+            "placeId": "ChIJpdnjdHH1qEcR5kAwQwHwkKo",
+            "address": "Friedrich-Engels-Straße 80, 14473 Potsdam, Deutschland",
+            "name": "MyPlace - SelfStorage",
+            "locationConfidence": 0.2843719,
+            "calibratedProbability": 0.3455315
+          },
+          {
+            "latitudeE7": 523942234,
+            "longitudeE7": 130715642,
+            "placeId": "ChIJH9Of-Oj1qEcRhe9amDItFmo",
+            "address": "Südliche Innenstadt, 14473 Potsdam, Deutschland",
+            "name": "Nuthepark",
+            "locationConfidence": 0.09250483,
+            "calibratedProbability": 0.11239975
+          }
+        ],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 56,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitImportance": "MAIN"
+      }
+    },
+    {
+      "activitySegment": {
+        "startLocation": {
+          "latitudeE7": 523920505,
+          "longitudeE7": 130739380,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "endLocation": {
+          "latitudeE7": 523968614,
+          "longitudeE7": 130430072,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "duration": {
+          "startTimestamp": "2023-01-01T16:20:00.050Z",
+          "endTimestamp": "2023-01-01T16:30:01.270Z"
+        },
+        "distance": 2195,
+        "activityType": "CYCLING",
+        "confidence": "HIGH",
+        "waypointPath": {
+          "source": "INFERRED",
+          "distanceMeters": 2721.3243177476375,
+          "travelMode": "BICYCLE",
+          "confidence": 0.9990670879286515
+        },
+        "simplifiedRawPath": {
+          "points": [
+            {
+              "latE7": 523926315,
+              "lngE7": 130706339,
+              "accuracyMeters": 18,
+              "timestamp": "2023-01-01T16:22:00.453Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "activitySegment": {
+        "startLocation": {
+          "latitudeE7": 523918282,
+          "longitudeE7": 130665164,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "endLocation": {
+          "latitudeE7": 525212538,
+          "longitudeE7": 134124235,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "duration": {
+          "startTimestamp": "2023-01-14T08:42:19.394Z",
+          "endTimestamp": "2023-01-14T09:26:15.703Z"
+        },
+        "distance": 28779,
+        "activityType": "IN_TRAIN",
+        "confidence": "HIGH",
+        "transitPath": {
+          "name": "RB21",
+          "hexRgbColor": "000000",
+          "linePlaceId": "ChIJhcR7oRdYqEcRlirviF4jBeo",
+          "stopTimesInfo": [
+            {
+              "scheduledDepartureTimestamp": "2022-09-07T08:43:00Z"
+            },
+            {
+              "scheduleArrivalTimestamp": "2022-09-07T08:46:00Z"
+            }
+          ],
+          "source": "INFERRED",
+          "confidence": 0.9910678318561942,
+          "distanceMeters": 4262.0
+        },
+        "simplifiedRawPath": {
+          "source": "INFERRED",
+          "distanceMeters": 4265.08322816727
+        }
+      }
+    },
+    {
+      "activitySegment": {
+        "startLocation": {
+          "latitudeE7": 523924669,
+          "longitudeE7": 130739079,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "endLocation": {
+          "latitudeE7": 524019194,
+          "longitudeE7": 130632123,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "duration": {
+          "startTimestamp": "2023-01-15T10:02:25.901Z",
+          "endTimestamp": "2023-01-15T10:08:58Z"
+        },
+        "distance": 2734,
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "confidence": "HIGH",
+        "waypointPath": {
+          "source": "INFERRED",
+          "distanceMeters": 2993.1479893439564,
+          "travelMode": "DRIVE",
+          "confidence": 0.9993322623672571
+        },
+        "simplifiedRawPath": {
+          "points": [
+            {
+              "latE7": 523968773,
+              "lngE7": 130529203,
+              "accuracyMeters": 6,
+              "timestamp": "2022-09-11T10:05:30Z"
+            }
+          ]
+        },
+        "parkingEvent": {
+          "location": {
+            "latitudeE7": 524028900,
+            "longitudeE7": 130627704,
+            "accuracyMetres": 87
+          },
+          "method": "END_OF_ACTIVITY_SEGMENT",
+          "locationSource": "NOT_FROM_RAW_LOCATION",
+          "timestamp": "2022-09-11T10:10:20.929Z"
+        }
+      }
+    },
+    {
+      "activitySegment": {
+        "startLocation": {
+          "latitudeE7": 525272335,
+          "longitudeE7": 133300558,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "endLocation": {
+          "latitudeE7": 525211166,
+          "longitudeE7": 133479743,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "duration": {
+          "startTimestamp": "2023-01-13T09:10:06.117Z",
+          "endTimestamp": "2023-01-13T09:21:33.686Z"
+        },
+        "distance": 1877,
+        "activityType": "IN_BUS",
+        "confidence": "MEDIUM",
+        "transitPath": {
+          "name": "123",
+          "hexRgbColor": "000000",
+          "linePlaceId": "ChIJkQfyBURRqEcRHCAKVDWTmh0",
+          "source": "INFERRED",
+          "confidence": 0.9859120331504,
+          "distanceMeters": 1528.0
+        },
+        "simplifiedRawPath": {
+          "source": "INFERRED",
+          "distanceMeters": 1886.5814080126083
+        }
+      }
+    },
+    {
+      "activitySegment": {
+        "startLocation": {
+          "latitudeE7": 385355434,
+          "longitudeE7": -285286416,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "endLocation": {
+          "latitudeE7": 382741389,
+          "longitudeE7": -288712274,
+          "sourceInfo": {
+            "deviceTag": 1325155233
+          }
+        },
+        "duration": {
+          "startTimestamp": "2023-01-13T20:16:24.297Z",
+          "endTimestamp": "2023-01-15T17:25:47.997Z"
+        },
+        "distance": 71134,
+        "activityType": "IN_FERRY",
+        "confidence": "LOW",
+        "simplifiedRawPath": {
+          "source": "INFERRED",
+          "distanceMeters": 71133.04375171721
+        }
+      }
+    }
+  ]
+}

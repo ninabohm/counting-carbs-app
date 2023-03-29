@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
+  binaryTargets = ["native", "linux-musl"]
+
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model Activity {
+  id          Int        @id @default(autoincrement())
+  type        String @default("transactions")
+  amount      Float
+  unit        String @default("EUR")
+  category    String
+  subCategory String?
+  categoryId  Int?
+  datetime    String
+  emission    Emission?
+  user        User? @relation(fields: [userId], references: [id])
+  userId      Int?
+}
+
+model Emission {
+  id             Int      @id @default(autoincrement())
+  emissionAmount Float
+  unit           String
+  activity       Activity? @relation(fields: [activityId], references: [id])
+  activityId     Int? @unique
+}
+
+model User {
+  id                Int @id @default(autoincrement())
+  email             String @unique
+  firebaseId        String?
+  activities        Activity[]
+  plaidAccessToken  String? @default("1")
+  itemId            String? @default("1")
+  cursor            String?@default("1")
+}
