@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "613818118339",
+    "project_id": "countingcarbs-4ac28",
+    "storage_bucket": "countingcarbs-4ac28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613818118339:android:ef3a8a90229895cd9eb276",
+        "android_client_info": {
+          "package_name": "com.countingcarbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613818118339-3j29clqtsspojbsauel851ufva93c7o4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.countingcarbs",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "613818118339-dcu9s91r0o0a8tlf4hlmbko5823cvdrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM7cedggPdSDRFA4AxOyQ9RWqGku-96zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613818118339-dcu9s91r0o0a8tlf4hlmbko5823cvdrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

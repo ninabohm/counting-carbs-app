@@ -1,0 +1,25 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "CountingCarbs app to reduce your carbon footprint"
+  lane :custom_lane do
+  end
+  lane :beta do
+    build_app(
+    export_options: {
+                    provisioningProfiles: {
+                      "org.reactjs.native.example.CountingCarbs" => "69e472d6-5ccd-44c0-9039-185c9b154c65.mobileprovision"
+                    }
+    }
+  )
+
+    firebase_app_distribution(
+      app: "1:613818118339:ios:91c2cb994f2b607f9eb276",
+      groups: "countingcarbsteam",
+      release_notes: "Try the latest features of CountingCarbs!"
+    )
+    # ...
+  end
+end
+
+
