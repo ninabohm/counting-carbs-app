@@ -1,5 +1,14 @@
 # counting-carbs-app
-These are the backend and frontend applications for the CountingCarbs app. 
+These are the backend and frontend applications for the CountingCarbs app. The application is the result of a 6 months uni project with HTW Berlin and the Berlin based startup 2Zero. 
+Contributors: 
+- Nancy Armas Martinez (Backend)
+- Paula Mehner (Frontend)
+- Erik Hagen (Frontend)
+- Emmanuel Wilke (Design)
+- Jennifer Zelmer (Product Management)
+- Nina Böhm (Tech Lead)
+
+## Structure
 The backend is a NodeJS app using Express and Prisma/Planetscale for the database.
 The frontend is a React Native application for iOS and Android.
 
